@@ -1,0 +1,154 @@
+{
+  "idea": {
+    "id": "1e89pTOOIi026PJxIjxL",
+    "title": "testing again",
+    "description": "NA"
+  },
+  "participants": [
+    {
+      "firebaseUid": "ep6wPRDLNmXz1OUC7RwmWCaPBx92",
+      "agoraUid": 11908,
+      "joinedAt": 1771325612041
+    },
+    {
+      "firebaseUid": "52nPR62V1zRgFWU58hEXcjQ1mrG3",
+      "agoraUid": 12406,
+      "joinedAt": 1771325612571
+    }
+  ],
+  "winner": {
+    "speaker": "SPEAKER_01",
+    "firebaseUid": "ep6wPRDLNmXz1OUC7RwmWCaPBx92",
+    "agoraUid": 11908
+  },
+  "scores": {
+    "ep6wPRDLNmXz1OUC7RwmWCaPBx92": 40.0,
+    "52nPR62V1zRgFWU58hEXcjQ1mrG3": 36.0
+  },
+  "summary": {
+    "metadata": {
+      "total_speakers": 2,
+      "total_segments": 2,
+      "debate_duration_seconds": 0
+    },
+    "scores": {
+      "SPEAKER_01": 40.0,
+      "SPEAKER_00": 36.0
+    },
+    "features": {
+      "SPEAKER_01": {
+        "word_count": 18,
+        "sentence_count": 1,
+        "confidence_score": 0
+      },
+      "SPEAKER_00": {
+        "word_count": 13,
+        "sentence_count": 1,
+        "confidence_score": 0
+      }
+    },
+    "speaker_mapping": {
+      "SPEAKER_01": "ep6wPRDLNmXz1OUC7RwmWCaPBx92",
+      "SPEAKER_00": "52nPR62V1zRgFWU58hEXcjQ1mrG3"
+    },
+    "conversation_with_sentiment": [
+      {
+        "speaker": "SPEAKER_01",
+        "firebaseUid": "ep6wPRDLNmXz1OUC7RwmWCaPBx92",
+        "text": "Your English is very good, how long did it take you to learn English once you got here?",
+        "sentiment": "Positive",
+        "confidence": 0.9971873164176941
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "firebaseUid": "52nPR62V1zRgFWU58hEXcjQ1mrG3",
+        "text": "It was really easy because we speak English in Australia,  you f***ing idiot.",
+        "sentiment": "Negative",
+        "confidence": 0.9992353916168213
+      }
+    ],
+    "speaker_sentiment_stats": {
+      "SPEAKER_01": {
+        "total_sentences": 1,
+        "positive_sentences": 1,
+        "negative_sentences": 0,
+        "neutral_sentences": 0
+      },
+      "SPEAKER_00": {
+        "total_sentences": 1,
+        "positive_sentences": 0,
+        "negative_sentences": 1,
+        "neutral_sentences": 0
+      }
+    },
+    "debate_sentiment_distribution": {
+      "positive_percent": 50.0,
+      "negative_percent": 50.0,
+      "neutral_percent": 0.0
+    },
+    "speaker_rankings": {
+      "most_aggressive_speaker": "SPEAKER_00",
+      "most_constructive_speaker": "SPEAKER_01",
+      "most_neutral_speaker": "SPEAKER_01",
+      "most_emotional_speaker": "SPEAKER_01",
+      "most_balanced_speaker": "SPEAKER_01"
+    },
+    "winner": "ep6wPRDLNmXz1OUC7RwmWCaPBx92",
+    "ai_judge": {
+      "winner": "SPEAKER_00",
+      "winner_reason": "Despite some flaws in logic and clarity, SPEAKER_00's strong argument on the relevance of their personal experience with English language learning holds more weight.",
+      "judge_verdict": "After careful consideration, I find that although both speakers had areas to improve upon, namely speaker-SPEAKER_00\u2019s logic and clarity; SPEAKER_00's strong argument on the relevance of personal experience in language learning provides a compelling edge. Furthermore, their emotive approach towards dismissing stereotypes about English fluency adds to an impactful delivery.",
+      "key_moments": [
+        "SPEAKER_00 using rhetorical strategy effectively",
+        "Interrupt from SPEAKER_01 not allowing a fair response",
+        "Bias detected in the judge's comments"
+      ],
+      "speaker_analysis": {
+        "SPEAKER_01": {
+          "argument_quality": 5.0,
+          "logic": 5.0,
+          "relevance": 5.0,
+          "clarity": 5.0,
+          "persuasiveness": 5.0
+        },
+        "SPEAKER_00": {
+          "argument_quality": 1,
+          "logic": 2,
+          "relevance": 8,
+          "clarity": 5,
+          "persuasiveness": 7
+        }
+      }
+    }
+  },
+  "transcript": [
+    {
+      "speaker": "SPEAKER_01",
+      "text": "Your English is very good, how long did it take you to learn English once you got here?",
+      "start": 0.01,
+      "end": 3.96
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "text": "It was really easy because we speak English in Australia,  you f***ing idiot.",
+      "start": 4.46,
+      "end": 9.02
+    }
+  ],
+  "ui": {
+    "winnerFirebaseUid": "ep6wPRDLNmXz1OUC7RwmWCaPBx92",
+    "winnerAgoraUid": 11908,
+    "scoreboard": [
+      {
+        "firebaseUid": "ep6wPRDLNmXz1OUC7RwmWCaPBx92",
+        "agoraUid": 11908,
+        "score": 40.0
+      },
+      {
+        "firebaseUid": "52nPR62V1zRgFWU58hEXcjQ1mrG3",
+        "agoraUid": 12406,
+        "score": 36.0
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp">
+
+    <!-- Clickable foreground ripple -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@drawable/bg_glass_card"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:elevation="6dp">
+
+        <!-- Call Title -->
+        <TextView
+            android:id="@+id/txtCallTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Group Call"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#1A1A1A" />
+
+        <!-- Winner -->
+        <TextView
+            android:id="@+id/txtWinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Winner: --"
+            android:textSize="14sp"
+            android:textColor="#555555"
+            android:layout_marginTop="6dp" />
+
+    </LinearLayout>
+
+</FrameLayout>

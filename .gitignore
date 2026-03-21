@@ -1,0 +1,40 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+npm-debug.log
+
+# IDEs / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Android (Debate_v2)
+*.apk
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+out/
+.gradle/
+build/
+local.properties
+
+# Secrets (DANGER)
+serviceAccountKey.json
+.env
+google-services.json
+
+# Large media/assets
+ffmpeg-*
+*.pdf
+*.docx
+*.mp4
+*.mp3
+*.wav
+*.log

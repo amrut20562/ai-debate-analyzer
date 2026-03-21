@@ -1,0 +1,1 @@
+{"status": "error", "message": "`np.NaN` was removed in the NumPy 2.0 release. Use `np.nan` instead."}

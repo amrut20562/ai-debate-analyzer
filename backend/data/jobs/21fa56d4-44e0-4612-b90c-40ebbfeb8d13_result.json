@@ -1,0 +1,97 @@
+{
+  "idea": {
+    "id": "1e89pTOOIi026PJxIjxL",
+    "title": "testing again",
+    "description": "NA"
+  },
+  "participants": [
+    {
+      "firebaseUid": "ep6wPRDLNmXz1OUC7RwmWCaPBx92",
+      "agoraUid": 11908,
+      "joinedAt": 1771325612041
+    },
+    {
+      "firebaseUid": "52nPR62V1zRgFWU58hEXcjQ1mrG3",
+      "agoraUid": 12406,
+      "joinedAt": 1771325612571
+    }
+  ],
+  "winner": {
+    "speaker": "SPEAKER_00",
+    "firebaseUid": "ep6wPRDLNmXz1OUC7RwmWCaPBx92",
+    "agoraUid": 11908
+  },
+  "scores": {
+    "ep6wPRDLNmXz1OUC7RwmWCaPBx92": 7.0
+  },
+  "summary": {
+    "metadata": {
+      "total_speakers": 1,
+      "total_segments": 1,
+      "debate_duration_seconds": 14.0
+    },
+    "scores": {
+      "SPEAKER_00": 7.0
+    },
+    "features": {
+      "SPEAKER_00": {
+        "word_count": 10,
+        "sentence_count": 2,
+        "confidence_score": 0
+      }
+    },
+    "conversation_with_sentiment": [
+      {
+        "speaker": "SPEAKER_00",
+        "text": "Another one is picking now. Caller 2 is now speaking.",
+        "sentiment": "Negative",
+        "confidence": 0.667
+      }
+    ],
+    "speaker_sentiment_stats": {
+      "SPEAKER_00": {
+        "total_sentences": 1,
+        "positive_sentences": 0,
+        "negative_sentences": 1,
+        "neutral_sentences": 0
+      }
+    },
+    "debate_sentiment_distribution": {
+      "positive_percent": 0.0,
+      "negative_percent": 100.0,
+      "neutral_percent": 0.0
+    },
+    "speaker_rankings": {
+      "most_aggressive_speaker": "SPEAKER_00",
+      "most_constructive_speaker": "SPEAKER_00",
+      "most_neutral_speaker": "SPEAKER_00",
+      "most_emotional_speaker": "SPEAKER_00",
+      "most_balanced_speaker": "SPEAKER_00"
+    },
+    "winner": "ep6wPRDLNmXz1OUC7RwmWCaPBx92"
+  },
+  "transcript": [
+    {
+      "speaker": "SPEAKER_00",
+      "text": "Another one is picking now. Caller 2 is now speaking.",
+      "start": 3.66,
+      "end": 14.0
+    }
+  ],
+  "ui": {
+    "winnerFirebaseUid": "ep6wPRDLNmXz1OUC7RwmWCaPBx92",
+    "winnerAgoraUid": 11908,
+    "scoreboard": [
+      {
+        "firebaseUid": "ep6wPRDLNmXz1OUC7RwmWCaPBx92",
+        "agoraUid": 11908,
+        "score": 7.0
+      },
+      {
+        "firebaseUid": "52nPR62V1zRgFWU58hEXcjQ1mrG3",
+        "agoraUid": 12406,
+        "score": 0.0
+      }
+    ]
+  }
+}

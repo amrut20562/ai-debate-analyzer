@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <!-- Status Bar Padding -->
+    <View
+        android:id="@+id/statusBarPadding"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true" />
+
+    <!-- Main Content Container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingHorizontal="40dp">
+
+        <!-- Concentric Circles with Robot Image -->
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="48dp">
+
+            <!-- Outer Dashed Circle -->
+            <View
+                android:id="@+id/outerCircle"
+                android:layout_width="280dp"
+                android:layout_height="280dp"
+                android:background="@drawable/dashed_circle" />
+
+            <!-- Purple Circle -->
+            <View
+                android:id="@+id/purpleCircle"
+                android:layout_width="220dp"
+                android:layout_height="220dp"
+                android:background="@drawable/purple_circle"
+                android:layout_centerInParent="true" />
+
+            <!-- Light Purple Circle -->
+            <View
+                android:id="@+id/lightPurpleCircle"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:background="@drawable/light_purple_circle"
+                android:layout_centerInParent="true" />
+
+            <!-- White Circle -->
+            <View
+                android:id="@+id/whiteCircle"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/white_circle"
+                android:layout_centerInParent="true" />
+
+            <!-- Robot Image (Center) -->
+            <ImageView
+                android:id="@+id/robotImage"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_robot"
+                android:contentDescription="Robot mascot" />
+
+            <!-- Small Profile Images around circles -->
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignTop="@id/outerCircle"
+                android:layout_alignEnd="@id/outerCircle"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="50dp"
+                android:src="@drawable/ic_profile_1"
+                android:contentDescription="Profile 1" />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignBottom="@id/outerCircle"
+                android:layout_alignEnd="@id/outerCircle"
+                android:layout_marginBottom="60dp"
+                android:layout_marginEnd="30dp"
+                android:src="@drawable/ic_profile_2"
+                android:contentDescription="Profile 2" />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignStart="@id/outerCircle"
+                android:layout_alignBottom="@id/outerCircle"
+                android:layout_marginStart="-10dp"
+                android:layout_marginBottom="100dp"
+                android:src="@drawable/ic_profile_3"
+                android:contentDescription="Profile 3" />
+        </RelativeLayout>
+
+        <!-- Tagline -->
+        <TextView
+            android:id="@+id/taglineText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Turn words into\nrewards."
+            android:textSize="28sp"
+            android:textColor="#1F2121"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="32dp" />
+
+        <!-- Name field, only for signup (hidden in login mode) -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/nameCard"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="28dp"
+            app:cardElevation="2dp"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/nameInput"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Name"
+                android:textSize="15dp"
+                android:paddingLeft="20dp"
+                android:textColor="#1F2121"
+                android:background="@android:color/transparent"/>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Email field -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="28dp"
+            app:cardElevation="2dp">
+
+            <EditText
+                android:id="@+id/emailInput"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Email"
+                android:textSize="15dp"
+                android:paddingLeft="20dp"
+                android:textColor="#1F2121"
+                android:background="@android:color/transparent"
+                android:inputType="textEmailAddress"/>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Password field -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="28dp"
+            app:cardElevation="2dp">
+
+            <EditText
+                android:id="@+id/passwordInput"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Password"
+                android:textSize="15dp"
+                android:paddingLeft="20dp"
+                android:textColor="#1F2121"
+                android:background="@android:color/transparent"
+                android:inputType="textPassword"/>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Login/Signup button -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="16dp"
+            app:cardBackgroundColor="@android:color/holo_purple"
+            app:cardCornerRadius="28dp"
+            app:cardElevation="2dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <Button
+                android:id="@+id/loginbtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Log In"
+                android:textSize="15dp"
+                android:textColor="#1F2121"
+                android:background="@android:color/transparent"/>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Sign Up Link / Switch mode -->
+        <LinearLayout
+            android:id="@+id/bottomPrompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/loginPrompt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Don't have an account? "
+                android:textSize="14sp"
+                android:textColor="#626C71" />
+
+            <TextView
+                android:id="@+id/signupLink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Signup"
+                android:textSize="14sp"
+                android:textColor="#7C3AED"
+                android:textStyle="bold"
+                android:clickable="true"
+                android:focusable="true" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

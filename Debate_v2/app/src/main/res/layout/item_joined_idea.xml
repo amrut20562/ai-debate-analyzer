@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/itemCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="2dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:id="@+id/ideaTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Idea Title"
+            android:textSize="18sp"
+            android:textColor="#1F2121"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/ideaDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Idea description goes here..."
+            android:textSize="14sp"
+            android:textColor="#626C71"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:layout_marginBottom="12dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/clientName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Client Name"
+                android:textSize="12sp"
+                android:textColor="#1F2121"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/joinedCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5 joined"
+                android:textSize="12sp"
+                android:textColor="#626C71"
+                android:layout_marginEnd="12dp" />
+
+            <TextView
+                android:id="@+id/onlineCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2 online"
+                android:textSize="12sp"
+                android:textColor="#4CAF50" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

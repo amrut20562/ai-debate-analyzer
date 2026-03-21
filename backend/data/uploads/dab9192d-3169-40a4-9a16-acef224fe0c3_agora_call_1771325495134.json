@@ -1,0 +1,21 @@
+{
+  "ideaId": "1e89pTOOIi026PJxIjxL",
+  "ideaTitle": "testing again",
+  "ideaDescription": "NA",
+  "channel": "idea_1e89pTOOIi026PJxIjxL",
+  "initiator": true,
+  "sampleRate": 48000,
+  "channels": 1,
+  "participants": [
+    {
+      "firebaseUid": "ep6wPRDLNmXz1OUC7RwmWCaPBx92",
+      "agoraUid": 94981,
+      "joinedAt": 1771325495128
+    },
+    {
+      "firebaseUid": "52nPR62V1zRgFWU58hEXcjQ1mrG3",
+      "agoraUid": 95515,
+      "joinedAt": 1771325495661
+    }
+  ]
+}

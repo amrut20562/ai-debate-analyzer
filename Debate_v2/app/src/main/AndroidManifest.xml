@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Core Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <!-- Location Permissions -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!-- Audio/Video Permissions -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+
+    <!-- 🔧 FIX: Required for ongoing calls on Android 9+ -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <!-- Bluetooth Permissions -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+
+    <!-- Phone State Permission -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <!-- Notification Permission -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <!-- Storage Permissions -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28" />
+
+
+    <!-- Full Screen Call Notification -->
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:hardwareAccelerated="true"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Debate_v2"
+        android:usesCleartextTraffic="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:enableOnBackInvokedCallback="true">
+
+        <!-- Google Maps API Key -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCaCz3y4XN9JCJWAFXGCwb5TgXBzWwSE2o" />
+
+        <!-- Firebase Messaging Service -->
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <!-- Audio Call Activity -->
+        <activity
+            android:name=".AgoraAudioCallActivity"
+            android:label="Audio Call"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|screenSize" />
+
+        <!-- Incoming Call Activity -->
+        <activity
+            android:name=".IncomingCallActivity"
+            android:launchMode="singleTop"
+            android:showWhenLocked="true"
+            android:turnScreenOn="true"
+            android:excludeFromRecents="true" />
+
+        <!-- Main Entry Point -->
+        <activity
+            android:name=".SignupActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Other Activities -->
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".AgoraVideoCallActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ChatActivity" />
+        <activity android:name=".NameActivity" />
+        <activity android:name=".BirthDateActivity" />
+        <activity android:name=".GenderActivity" />
+        <activity android:name=".LocationActivity" />
+        <activity android:name=".InterestActivity" />
+        <activity android:name=".SetupFinalActivity" />
+        <activity android:name=".IdeaActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".PaymentActivity" />
+        <activity android:name=".PostIdeaActivity" />
+        <activity android:name=".JoinedIdeasActivity" />
+        <activity android:name=".ChatListActivity" />
+        <activity android:name=".CallLobbyActivity" />
+        <activity android:name=".CallHistoryActivity" />
+        <activity android:name=".CallResultActivity" />
+        <activity android:name=".GroupChatActivity" />
+        <activity android:name=".ResultActivity" />
+        <activity android:name=".LeaderboardActivity" />
+        <activity
+            android:name=".VideoCallActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,55 @@
+{
+  "idea": {
+    "id": "1e89pTOOIi026PJxIjxL",
+    "title": "testing again",
+    "description": "NA"
+  },
+  "participants": [
+    {
+      "firebaseUid": "ep6wPRDLNmXz1OUC7RwmWCaPBx92",
+      "agoraUid": 57490,
+      "joinedAt": 1771317657943
+    },
+    {
+      "firebaseUid": "52nPR62V1zRgFWU58hEXcjQ1mrG3",
+      "agoraUid": 58240,
+      "joinedAt": 1771317658783
+    }
+  ],
+  "winner": {
+    "speaker": "Speaker_2",
+    "firebaseUid": "ep6wPRDLNmXz1OUC7RwmWCaPBx92",
+    "agoraUid": 57490
+  },
+  "scores": {
+    "52nPR62V1zRgFWU58hEXcjQ1mrG3": 2.3,
+    "ep6wPRDLNmXz1OUC7RwmWCaPBx92": 3.5
+  },
+  "summary": "The winner of the debate is ep6wPRDLNmXz1OUC7RwmWCaPBx92.\n\nSpeaker performance summary:\n- Speaker_1: 2 words, 1 sentences, confidence score 0\n- Speaker_2: 5 words, 1 sentences, confidence score 0\n\nep6wPRDLNmXz1OUC7RwmWCaPBx92 demonstrated stronger participation and clarity, making their arguments more impactful overall.",
+  "transcript": [
+    {
+      "speaker": "Speaker_1",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "Speaker_2",
+      "text": "Hello, this is Voice over."
+    }
+  ],
+  "ui": {
+    "winnerFirebaseUid": "ep6wPRDLNmXz1OUC7RwmWCaPBx92",
+    "winnerAgoraUid": 57490,
+    "scoreboard": [
+      {
+        "firebaseUid": "52nPR62V1zRgFWU58hEXcjQ1mrG3",
+        "agoraUid": 58240,
+        "score": 2.3
+      },
+      {
+        "firebaseUid": "ep6wPRDLNmXz1OUC7RwmWCaPBx92",
+        "agoraUid": 57490,
+        "score": 3.5
+      }
+    ]
+  }
+}

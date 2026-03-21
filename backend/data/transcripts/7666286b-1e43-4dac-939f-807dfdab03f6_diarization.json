@@ -1,0 +1,17 @@
+[
+  {
+    "speaker": "SPEAKER_01",
+    "start": 0.01,
+    "end": 3.96
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 4.46,
+    "end": 9.02
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 10.09,
+    "end": 10.3
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "idea": {
+    "id": "1e89pTOOIi026PJxIjxL",
+    "title": "testing again",
+    "description": "NA"
+  },
+  "participants": [
+    {
+      "firebaseUid": "52nPR62V1zRgFWU58hEXcjQ1mrG3",
+      "agoraUid": 12065,
+      "joinedAt": 1771318712198
+    }
+  ],
+  "winner": {
+    "speaker": "Speaker_3",
+    "firebaseUid": null,
+    "agoraUid": null
+  },
+  "scores": {},
+  "summary": "The winner of the debate is Speaker_3.\n\nSpeaker performance summary:\n- Speaker_3: 1 words, 1 sentences, confidence score 0\n\nSpeaker_3 demonstrated stronger participation and clarity, making their arguments more impactful overall.",
+  "transcript": [
+    {
+      "speaker": "Speaker_1",
+      "text": "[No clear speech detected]"
+    },
+    {
+      "speaker": "Speaker_2",
+      "text": "[No clear speech detected]"
+    },
+    {
+      "speaker": "Speaker_3",
+      "text": "Hello."
+    }
+  ],
+  "ui": {
+    "winnerFirebaseUid": null,
+    "winnerAgoraUid": null,
+    "scoreboard": [
+      {
+        "firebaseUid": "52nPR62V1zRgFWU58hEXcjQ1mrG3",
+        "agoraUid": 12065,
+        "score": 0.0
+      }
+    ]
+  }
+}

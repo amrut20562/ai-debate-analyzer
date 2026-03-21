@@ -1,0 +1,14 @@
+[
+  {
+    "speaker": "SPEAKER_01",
+    "text": "Your English is very good, how long did it take you to learn English once you got here?",
+    "start": 0.01,
+    "end": 3.96
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "text": "It was really easy because we speak English in Australia,  you f***ing idiot.",
+    "start": 4.46,
+    "end": 9.02
+  }
+]
