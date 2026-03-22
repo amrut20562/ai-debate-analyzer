@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     private static final String TAG = "MainActivity";
     private static final int LOCATION_PERMISSION_REQUEST = 1;
     private static final int PERMISSION_REQUEST_CODE = 200;
-    public static final String FLASK_BASE_URL = "http://192.168.1.7:8000";
+    public static final String FLASK_BASE_URL = "http://YOUR_IP:8000";
 
 
     // Required permissions
