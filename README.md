@@ -75,6 +75,9 @@ pip install -r requirements.txt
 1. Generate a `serviceAccountKey.json` from your Firebase Console and place it inside the `/backend/` directory.
 2. Rename the `.env.example` file to `.env`.
 3. Open `.env` and configure your `HF_AUTH_TOKEN` (Hugging Face token - required for Pyannote models).
+4. change the ip address in MainActivity.java and AudioUploder.java.
+5. change the google map api key in manifest.xml file.
+
 
 **Run the Server:**
 ```powershell
