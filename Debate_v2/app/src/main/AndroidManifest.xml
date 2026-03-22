@@ -55,7 +55,7 @@
         <!-- Google Maps API Key -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyCaCz3y4XN9JCJWAFXGCwb5TgXBzWwSE2o" />
+            android:value="YOUR_MAP_API_KEY" />
 
         <!-- Firebase Messaging Service -->
         <service
