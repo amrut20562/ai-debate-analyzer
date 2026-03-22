@@ -15,7 +15,7 @@ public class AudioUploader {
     private static final String TAG = "AudioUploader";
 
     // 🔴 CHANGE THIS to your Flask server
-    private static final String UPLOAD_URL = "http://192.168.1.8:8000/analyze/debate";
+    private static final String UPLOAD_URL = "http://YOUR_IP:8000/analyze/debate";
 
 
 
